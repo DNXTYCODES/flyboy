@@ -1,0 +1,151 @@
+/* .gallery-preview {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.gallery-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.gallery-item {
+  background: var(--lightBlue);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin-top: 2rem;
+} */
+
+
+
+
+
+
+
+/* Base Styles */
+.gallery-preview {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.gallery-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible grid */
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.gallery-item {
+  background: var(--lightBlue);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadowHover);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+/* 
+.gallery-image[loading="lazy"] {
+  filter: blur(5px);
+  transition: filter 0.3s ease-in-out;
+} */
+
+.gallery-image {
+  filter: blur(5px);
+  transition: filter 0.3s ease-in-out;
+}
+
+/* 
+.gallery-image:not([loading="lazy"]) {
+  filter: none;
+} */
+
+
+.gallery-image {
+  filter: none;
+}
+
+
+.orangeText {
+  color: var(--orange);
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.secondaryText {
+  color: var(--gray);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background: var(--hoverBlue);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .gallery-item {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-preview-grid {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    gap: 1rem;
+  }
+
+  .secondaryText {
+    font-size: 0.9rem;
+  }
+
+  .gallery-image {
+    border-radius: 6px;
+  }
+}
+
