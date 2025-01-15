@@ -1,6 +1,8 @@
 import b6 from './b6.jpg'
 import a12 from './a12.jpg'
 import e1 from './e1.jpg'
+import exchange_icon2 from './exchange_icon2.png'
+import support_icon2 from './support_icon2.png'
 import vid1 from './vid1.webm'
 import whitelogo from './whitelogo.jpg'
 import cart_icon from './cart_icon.png'
@@ -24,6 +26,8 @@ export const assets = {
     whitelogo,
     b6,
     a12,
+    exchange_icon2,
+    support_icon2,
     e1,
     vid1,
     cart_icon,
