@@ -18,7 +18,7 @@ const Hero = () => {
   }, [slides.length]);
 
   return (
-    <div className="flex flex-col sm:flex-row border rounded-3xl bg-golden-brown bg-clip-text text-transparent bg-to-b">
+    <div className="flex flex-col sm:flex-row border border-gray-700 rounded-3xl bg-golden-brown bg-clip-text text-transparent bg-to-b">
       {/* Hero Left Side */}
       <div className="w-full sm:w-1/2 flex items-center justify-center py-10 sm:py-0">
         <div>
