@@ -1,6 +1,7 @@
 import b6 from './b6.jpg'
 import a12 from './a12.jpg'
 import e1 from './e1.jpg'
+import flyboyai1 from './flyboyai1.jpg'
 import exchange_icon2 from './exchange_icon2.png'
 import support_icon2 from './support_icon2.png'
 import vid1 from './vid1.webm'
@@ -24,6 +25,7 @@ import cross_icon from './cross_icon.png'
 
 export const assets = {
     whitelogo,
+    flyboyai1,
     b6,
     a12,
     exchange_icon2,
