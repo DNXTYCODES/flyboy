@@ -17,7 +17,7 @@ const Contact = () => {
           alt=""
         />
         <div className="flex flex-col justify-center items-start gap-6">
-          <p className="font-semibold text-xl  bg-golden-brown bg-clip-text text-transparent bg-to-b">
+          <p className="prata-regular text-xl  bg-golden-brown bg-clip-text text-transparent bg-to-b">
             Our Store
           </p>
           <p className=" text-gray-500">
@@ -26,7 +26,7 @@ const Contact = () => {
           <p className=" text-gray-500">
             Tel: 09061404264 <br /> Email: ayomatthew891@gmail.com
           </p>
-          <p className="font-semibold text-xl  bg-golden-brown bg-clip-text text-transparent bg-to-b">
+          <p className="prata-regular text-xl  bg-golden-brown bg-clip-text text-transparent bg-to-b">
             Careers at Forever
           </p>
           <p className=" text-gray-500">

@@ -27,7 +27,7 @@ const FeaturedSection = () => {
 
   return (
     <div className="py-16 px-6">
-      <h2 className="text-3xl font-bold text-center mb-10 bg-golden-brown bg-clip-text text-transparent bg-to-b">
+      <h2 className="prata-regular text-3xl font-bold text-center mb-10 bg-golden-brown bg-clip-text text-transparent bg-to-b">
         Featured Watches
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -7,7 +7,7 @@ const NewsletterBox = () => {
 
   return (
     <div className=" text-center">
-      <p className="text-2xl font-medium text-gray-800 bg-golden-brown bg-clip-text text-transparent bg-to-b">
+      <p className="prata-regular text-2xl font-medium text-gray-800 bg-golden-brown bg-clip-text text-transparent bg-to-b">
         Subscribe now to stay in the loop
       </p>
       <p className="text-gray-400 mt-3">

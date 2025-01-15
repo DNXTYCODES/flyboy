@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className="text-xl font-medium mb-5">COMPANY</p>
+          <p className="prata-regular text-xl font-medium mb-5">COMPANY</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>
               <a href="/">Home</a>
@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
+          <p className="prata-regular text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>+234 906 140 4264</li>
             <li>contact@flyboycustoms.com</li>
@@ -40,7 +40,7 @@ const Footer = () => {
 
       <div>
         <hr />
-        <p className="py-5 text-sm text-center">
+        <p className="prata-regular py-5 text-sm text-center">
           Copyright 2025@ flyboycustoms.com - All Right Reserved.
         </p>
       </div>
