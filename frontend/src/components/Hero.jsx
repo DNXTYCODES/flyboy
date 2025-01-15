@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
 
       {/* Hero Right Side - Slideshow */}
-      <div className="w-full sm:w-1/2 h-[500px] rounded-3xl relative overflow-hidden">
+      <div className="w-full sm:w-1/2 h-[500px] rounded-3xl relative overflow-hidden z-[1]">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -55,7 +55,7 @@ const Hero = () => {
               />
             ) : (
               <img
-                className="w-full h-full object-cover rounded-3xl"
+                className="w-full h-full object-cover rounded-3xl z-[0]"
                 src={slide.src}
                 alt=""
               />
