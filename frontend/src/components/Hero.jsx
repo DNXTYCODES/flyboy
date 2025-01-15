@@ -3,7 +3,7 @@ import { assets } from '../assets/assets';
 
 const Hero = () => {
   const slides = [
-    { type: 'video', src: assets.vid1 }, // Replace with your video path
+    { type: 'image', src: assets.e1 }, // Replace with your video path
     { type: 'image', src: assets.a12 }, // Replace with your first image path
     { type: 'image', src: assets.b6 },  // Replace with your second image path
   ];
