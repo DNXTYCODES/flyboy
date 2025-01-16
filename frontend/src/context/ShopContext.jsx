@@ -151,6 +151,24 @@ const ShopContextProvider = (props) => {
 
 export default ShopContextProvider;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import { createContext, useEffect, useState } from "react";
 // import { toast } from "react-toastify";
 // import { useNavigate } from "react-router-dom";
@@ -448,6 +466,42 @@ export default ShopContextProvider;
 // };
 
 // export default ShopContextProvider;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // import { createContext, useEffect, useState } from "react";
 // import { toast } from "react-toastify";
