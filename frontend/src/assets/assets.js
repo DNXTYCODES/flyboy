@@ -1,11 +1,16 @@
 import b6 from './b6.jpg'
 import a12 from './a12.jpg'
 import e1 from './e1.jpg'
+import cartier from './cartier.mp4'
+import cartierdiamond from './cartierdiamond.mp4'
+import panerai from './panerai.mp4'
+import rolex from './rolex.mp4'
+import tagheuer from './tagheuer.mp4'
 import flyboyai1 from './flyboyai1.jpg'
 import exchange_icon2 from './exchange_icon2.png'
 import support_icon2 from './support_icon2.png'
 import vid1 from './vid1.webm'
-import whitelogo from './whitelogo.jpg'
+import whitelogo from './whitelogo.png'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
@@ -24,6 +29,11 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 
 export const assets = {
+    cartier,
+    cartierdiamond,
+    panerai,
+    rolex,
+    tagheuer,
     whitelogo,
     flyboyai1,
     b6,
