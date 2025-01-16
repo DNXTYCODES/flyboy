@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <div className='bg-[#0B0B0B]'>
       <Hero />
-      <FeaturedSection />
       <LatestCollection/>
       <BestSeller/>
+      <FeaturedSection />
       <OurPolicy/>
       <NewsletterBox/>
     </div>
