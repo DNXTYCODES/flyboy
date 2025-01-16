@@ -6,6 +6,11 @@ import cartierdiamond from './cartierdiamond.mp4'
 import panerai from './panerai.mp4'
 import rolex from './rolex.mp4'
 import tagheuer from './tagheuer.mp4'
+import ap1 from './ap1.jpeg'
+import patek from './patek.jpeg'
+import breitling from './breitling.png'
+import hublot from './hublot.png'
+import omega from './omega.jpeg'
 import play from './play.png'
 import pause from './pause.png'
 import flyboyai1 from './flyboyai1.jpg'
@@ -31,6 +36,11 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 
 export const assets = {
+    ap1,
+    patek,
+    breitling,
+    hublot,
+    omega,
     cartier,
     cartierdiamond,
     panerai,
