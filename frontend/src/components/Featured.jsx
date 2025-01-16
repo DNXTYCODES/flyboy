@@ -11,7 +11,7 @@ const FeaturedSection = () => {
     {
       id: 2,
       name: 'CARTIER',
-      video: assets.cartier, //Replace with your video path
+      video: assets.cartier, //  Replace with your video path
     },
     {
       id: 3,
