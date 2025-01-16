@@ -6,6 +6,8 @@ import cartierdiamond from './cartierdiamond.mp4'
 import panerai from './panerai.mp4'
 import rolex from './rolex.mp4'
 import tagheuer from './tagheuer.mp4'
+import play from './play.png'
+import pause from './pause.png'
 import flyboyai1 from './flyboyai1.jpg'
 import exchange_icon2 from './exchange_icon2.png'
 import support_icon2 from './support_icon2.png'
@@ -34,6 +36,8 @@ export const assets = {
     panerai,
     rolex,
     tagheuer,
+    pause,
+    play,
     whitelogo,
     flyboyai1,
     b6,
