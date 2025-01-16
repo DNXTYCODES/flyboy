@@ -39,7 +39,7 @@ const FeaturedSection = () => {
             <video
               src={watch.video}
               alt={watch.name}
-              className="w-full h-90 object-cover"
+              className="w-49 aspect-square object-cover"
               autoPlay
               loop
               muted
