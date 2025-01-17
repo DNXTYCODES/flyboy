@@ -11,18 +11,6 @@ const FeaturedSection = () => {
     },
     {
       id: 2,
-      name: 'CARTIER',
-      video: assets.cartier,
-      logo: assets.cartier_img,
-    },
-    {
-      id: 3,
-      name: 'TAG HEUER',
-      video: assets.tagheuer,
-      logo: assets.tagheuer_img,
-    },
-    {
-      id: 4,
       name: 'PANERAI',
       video: assets.panerai,
       logo: assets.panerai_img,
@@ -32,9 +20,11 @@ const FeaturedSection = () => {
   const otherBrands = [
     { id: 1, name: 'OMEGA', logo: assets.omega },
     { id: 2, name: 'HUBLOT', logo: assets.hublot },
-    { id: 3, name: 'BREITLING', logo: assets.breitling },
-    { id: 4, name: 'PATEK PHILIPPE', logo: assets.patek1 },
-    { id: 5, name: 'AUDEMARS PIGUET', logo: assets.ap1 },
+    { id: 3, name: 'CARTIER', logo: assets.cartier_img },
+    { id: 4, name: 'BREITLING', logo: assets.breitling },
+    { id: 5, name: 'TAG HEUER', logo: assets.tagheuer_img },
+    { id: 6, name: 'PATEK PHILIPPE', logo: assets.patek1 },
+    { id: 7, name: 'AUDEMARS PIGUET', logo: assets.ap1 },
   ];
 
   return (
@@ -46,13 +36,13 @@ const FeaturedSection = () => {
         {featuredWatches.map((watch) => (
           <div
             key={watch.id}
-            className="relative group border border-gray-700 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+            className="relative group border border-gray-700 rounded-md shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
           >
             <video
               src={watch.video}
-              alt={watch.name}
+              alt={`${watch.name}-luxury-wristwatch`}
               className="w-49 aspect-square object-cover"
-              controls
+              // controls
               autoPlay
               loop
               muted
@@ -69,7 +59,7 @@ const FeaturedSection = () => {
             >
               <img
                 src={watch.logo}
-                alt={watch.name}
+                alt={`${watch.name}-luxury-wristwatch`}
                 style={{ width: '30px', height: '30px', objectFit: 'contain' }}
               />
               <span className="text-lg font-semibold text-white">{watch.name}</span>

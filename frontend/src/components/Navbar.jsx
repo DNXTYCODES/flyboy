@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
       
-      <Link to='/'><img src={assets.whitelogo} className='h-9' alt="" /></Link>
+      <Link to='/'><img src={assets.whitelogo} className='h-9' alt="FLYBOY LUXURY WATCHES WITH TIMELESS ELEGANCE" /></Link>
 
       <ul className='hidden sm:flex gap-5 text-sm text-[white]'>
         
@@ -43,23 +43,23 @@ const Navbar = () => {
             <p>ADMIN PANEL</p>
             <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
         </a> */}
-        <a href="www.flyboycustoms.onrender.com" className='flex flex-col items-center gap-1'>
+        {/* <a href="https://flyboycustoms.onrender.com" className='flex flex-col items-center gap-1'>
             <p>SERVICES</p>
             <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
-        </a>
+        </a> */}
 
       </ul>
 
       <div className='flex items-center gap-6'>
-            <img onClick={()=> { setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-5 cursor-pointer' alt="" />
+            <img onClick={()=> { setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-5 cursor-pointer' alt="search luxury watches" />
             
             <div className='group relative'>
-                <img onClick={()=> token ? null : navigate('/login') } className='w-5 cursor-pointer' src={assets.profile_icon} alt="" />
+                <img onClick={()=> token ? null : navigate('/login') } className='w-5 cursor-pointer' src={assets.profile_icon} alt="wristwatch enthusiast profile" />
                 {/* Dropdown Menu */}
                 {token && 
                 <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
                     <div className='flex flex-col gap-2 w-36 py-3 px-5  bg-slate-100 text-gray-500 rounded'>
-                        <p className='cursor-pointer hover:text-white'>My Profile</p>
+                        {/* <p className='cursor-pointer hover:text-white'>My Profile</p> */}
                         <p onClick={()=>navigate('/orders')} className='cursor-pointer hover:text-black'>Orders</p>
                         <p onClick={logout} className='cursor-pointer hover:text-black'>Logout</p>
                     </div>

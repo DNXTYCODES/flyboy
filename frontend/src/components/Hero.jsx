@@ -24,13 +24,13 @@ const Hero = () => {
         <div>
           <div className="flex items-center gap-2">
             <p className="w-8 md:w-11 h-[2px] bg-white"></p>
-            <p className="font-medium text-sm">OUR BESTSELLERS</p>
+            <p className="font-medium text-sm">TIMELESS ELEGANCE</p>
           </div>
           <h1 className="prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed">
-            Latest Arrivals
+            LUXURY WATCHES
           </h1>
           <div className="flex items-center gap-2">
-            <p className="font-semibold text-sm md:text-base">SHOP NOW</p>
+            <p className="font-semibold text-sm md:text-base">EXCLUSIVE DESIGNS</p>
             <p className="w-8 md:w-11 h-[1px] bg-white"></p>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Hero = () => {
               <img
                 className="w-full h-full object-cover rounded-3xl z-[0]"
                 src={slide.src}
-                alt=""
+                alt="LUXURY WRISTWATCH with GOLD and DIAMOND accents"
               />
             )}
           </div>

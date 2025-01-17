@@ -6,7 +6,6 @@ import rolex_img from './rolex_img.jpeg'
 import panerai_img from './panerai_img.jpg'
 import cartier_img from './cartier_img.png'
 import cartier from './cartier.mp4'
-import cartierdiamond from './cartierdiamond.mp4'
 import panerai from './panerai.mp4'
 import rolex from './rolex.mp4'
 import tagheuer from './tagheuer.mp4'
@@ -50,7 +49,6 @@ export const assets = {
     hublot,
     omega,
     cartier,
-    cartierdiamond,
     panerai,
     rolex,
     tagheuer,
