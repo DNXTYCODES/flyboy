@@ -19,8 +19,8 @@ const Hero = () => {
         <div className="container">
           {/* Hero Logo */}
           <TitleLogo
-            title="CUSTOMS"
-            caption="FLYBOY"
+            title="BOY"
+            caption="FLY"
             className="logobg"
           />
 
