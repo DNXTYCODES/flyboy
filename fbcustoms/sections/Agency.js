@@ -153,28 +153,21 @@ const Agency = () => {
                 />
               </div>
               <div className="right w-60 ml">
-                <TitleSm title="Why Advertise with Us" />
+                <TitleSm title="Why Choose Us" />
                 <br />
                 <p className="misson-p">
                   <p>
-                    Build Trust: Being featured on a reputable family show
-                    enhances your brand’s credibility.
+                  ✅ Expert Craftsmanship: Our skilled detailers use industry-leading products and techniques.
                   </p>
                   <p>
-                    Increase Visibility: Our loyal audience connects with the
-                    brands we showcase, making it easier for your message to
-                    resonate.
+                  ✅ High-Quality Materials: We use only premium cleaning solutions and protective coatings.
                   </p>
                   <p>
-                    Tailored Exposure: We integrate your brand into our show
-                    naturally, creating a seamless and effective advertising
-                    experience.
+                  ✅ Attention to Detail: Every vehicle receives a customized approach based on its needs.
                   </p>
                   <p>
-                    Proven Impact: Many of our past sponsors have seen
-                    significant growth in brand awareness and customer
-                    engagement.
-                  </p>
+                  ✅ Customer Satisfaction Guarantee: We ensure your car leaves our shop looking flawless.
+                </p>
                 </p>
               </div>
             </div>
@@ -190,18 +183,14 @@ const Agency = () => {
                 />
               </div>
               <div className="right w-60 ml">
-                <TitleSm title="Our Mission" />
+                <TitleSm title="Vehicles We Specialize In" />
                 <br />
                 <p className="misson-p">
                   <p>
-                    At EVENT360 WITH FAFALI, our mission is to inform, inspire,
-                    and entertain by bringing the vibrant stories of Ghana’s
-                    entertainment, beauty, and cultural industries to life. We
-                    aim to create a platform where diverse voices are heard,
-                    industry specialists are celebrated, and families come
-                    together to enjoy meaningful content.
+                  We provide expert detailing services for all types of vehicles, including:
+                  Luxury Cars | Sports Cars | SUVs | Sedans | Trucks | Exotic Cars | Classic Cars
                   </p>
-                  <p>
+                  {/* <p>
                     Through insightful interviews, honest reviews, and lively
                     discussions, we connect our audience to the trends and
                     events that shape their world. By integrating brands and
@@ -213,7 +202,7 @@ const Agency = () => {
                     We are committed to delivering quality, family-friendly
                     programming that uplifts, educates, and fosters a sense of
                     community.
-                  </p>
+                  </p> */}
                 </p>
               </div>
             </div>
