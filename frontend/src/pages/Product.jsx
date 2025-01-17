@@ -60,7 +60,7 @@ const Product = () => {
             {currency}
             {productData.price}
           </p>
-          <p className="mt-5 text-gray-500 md:w-4/5">{productData.description}</p>
+          <p className="mt-5 text-gray-500 md:w-4/5 pb-3">{productData.description}</p>
           <button
             onClick={() => addToCart(productData._id)}
             className="border border-white text-white px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500 bg-[#333333]"
