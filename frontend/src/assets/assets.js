@@ -5,10 +5,8 @@ import tagheuer_img from './tagheuer_img.png'
 import rolex_img from './rolex_img.jpeg'
 import panerai_img from './panerai_img.jpg'
 import cartier_img from './cartier_img.png'
-import cartier from './cartier.mp4'
 import panerai from './panerai.mp4'
 import rolex from './rolex.mp4'
-import tagheuer from './tagheuer.mp4'
 import ap1 from './ap1.jpeg'
 import patek1 from './patek1.jpg'
 import breitling from './breitling.png'
@@ -48,10 +46,8 @@ export const assets = {
     breitling,
     hublot,
     omega,
-    cartier,
     panerai,
     rolex,
-    tagheuer,
     pause,
     play,
     whitelogo,

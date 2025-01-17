@@ -36,7 +36,7 @@ const Product = () => {
                 src={item}
                 key={index}
                 className="w-[24%] sm:w-full sm:mb-3 flex-shrink-0 cursor-pointer"
-                alt=""
+                alt="luxury watch brand"
               />
             ))}
           </div>
@@ -63,7 +63,7 @@ const Product = () => {
           <p className="mt-5 text-gray-500 md:w-4/5">{productData.description}</p>
           <button
             onClick={() => addToCart(productData._id)}
-            className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700 mt-8"
+            className="border border-white text-white px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500 bg-[#333333]"
           >
             ADD TO CART
           </button>
@@ -79,7 +79,7 @@ const Product = () => {
       {/* Description & Review Section */}
       <div className="mt-20">
         <div className="flex">
-          <b className="border px-5 py-3 text-sm">Description</b>
+          <b className="border px-5 py-3 text-sm">Information</b>
           {/* <p className="border px-5 py-3 text-sm">Reviews (122)</p> */}
         </div>
         <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500">

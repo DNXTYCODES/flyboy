@@ -22,7 +22,6 @@ const LatestCollection = () => {
           craftsmanship, exclusive designs, and timeless elegance, these new
           arrivals redefine sophistication.{" "}
         </p>
-        <p className="hidden">New Releases | Limited Editions | Modern Innovation</p>
       </div>
 
       {/* Rendering Products */}
