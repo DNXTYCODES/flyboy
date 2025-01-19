@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
       
-      <Link to='/'><img src={assets.whitelogo} className='h-9' alt="FLYBOY LUXURY WATCHES WITH TIMELESS ELEGANCE" /></Link>
+      <Link to='/'><img src={assets.flyboylogo} className='h-9' alt="FLYBOY LUXURY WATCHES WITH TIMELESS ELEGANCE" /></Link>
 
       <ul className='hidden sm:flex gap-5 text-sm text-[white]'>
         

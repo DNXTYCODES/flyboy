@@ -1,6 +1,9 @@
 import b6 from './b6.jpg'
 import a12 from './a12.jpg'
 import e1 from './e1.jpg'
+import flyboylogo from './flyboylogo.jpg'
+import customs from './customs.jpg'
+import customslogo from './customslogo.jpg'
 import tagheuer_img from './tagheuer_img.png'
 import rolex_img from './rolex_img.jpeg'
 import panerai_img from './panerai_img.jpg'
@@ -37,6 +40,9 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 
 export const assets = {
+    customs,
+    customslogo,
+    flyboylogo,
     tagheuer_img,
     rolex_img,
     cartier_img,

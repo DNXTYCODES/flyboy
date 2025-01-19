@@ -5,6 +5,7 @@ import BestSeller from '../components/BestSeller'
 import OurPolicy from '../components/OurPolicy'
 import NewsletterBox from '../components/NewsletterBox'
 import FeaturedSection from '../components/Featured'
+import FlyboyBanner from '../components/FlyboyBanner'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <LatestCollection/>
       <BestSeller/>
       <FeaturedSection />
+      <FlyboyBanner />
       <OurPolicy/>
       <NewsletterBox/>
     </div>
