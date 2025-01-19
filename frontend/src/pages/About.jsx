@@ -105,7 +105,7 @@ const About = () => {
           your vehicle a new lease of life.
         </p>
         <button className="mt-6 bg-[purple] text-white px-6 py-3 rounded-md hover:bg-opacity-90">
-          <a href="www.flyboycustoms.onrender.com">Learn More</a>
+          <a href="https://flyboycustoms.onrender.com">Learn More</a>
         </button>
       </div>
 
