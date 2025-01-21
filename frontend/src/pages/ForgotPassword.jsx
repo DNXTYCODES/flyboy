@@ -10,7 +10,7 @@ const ForgotPassword = () => {
         console.log("Form submitted with email:", email); // Debugging log to check if the handler is triggered
         try {
             // const response = await axios.post('http://localhost:5174/api/user/forgot-password', { email }); // Ensure the URL is correct
-            const response = await axios.post('https://flyboy.onrender.com/api/user/forgot-password', { email }); // Ensure the URL is correct
+            const response = await axios.post('https://flyboybackend.onrender.com/api/user/forgot-password', { email }); // Ensure the URL is correct
 
             console.log("Response from backend:", response.data); // Debugging log for backend response
             if (response.data.success) {
