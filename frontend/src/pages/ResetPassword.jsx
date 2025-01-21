@@ -9,7 +9,7 @@ const ResetPassword = () => {
     const onSubmitHandler = async (event) => {
         event.preventDefault();
         try {
-            const response = await axios.post('/api/user/reset-password', { token, password });
+            const response = await axios.post('https://flyboybackend.onrender.com/api/user/reset-password', { token, password });
             if (response.data.success) {
                 toast.success(response.data.message);
             } else {
