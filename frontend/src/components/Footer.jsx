@@ -24,6 +24,9 @@ const Footer = () => {
             <li>
               <a href="/about">About us</a>
             </li>
+            <li>
+              <a href="/collection">Collections</a>
+            </li>
             {/* <li>Delivery</li>
             <li>Privacy policy</li> */}
           </ul>
@@ -33,10 +36,10 @@ const Footer = () => {
           <p className="prata-regular text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>
-              <a href="tel:501 288 2272">501 288 2272</a>
+              <a className="underline" href="tel:501 288 2272">501 288 2272</a>
               </li>
             <li>
-              <a href="mailto:aflyboyp51@gmail.com">aflyboyp51@gmail.com</a>
+              <a className="underline" href="mailto:aflyboyp51@gmail.com">aflyboyp51@gmail.com</a>
             </li>
           </ul>
         </div>

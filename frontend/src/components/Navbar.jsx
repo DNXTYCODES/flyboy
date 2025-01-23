@@ -45,14 +45,6 @@ const Navbar = () => {
             <p>CONTACT</p>
             <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
         </NavLink>
-        {/* <a href="www.flyboyadmin.onrender.com" className='flex flex-col items-center gap-1'>
-            <p>ADMIN PANEL</p>
-            <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
-        </a> */}
-        {/* <a href="https://flyboycustoms.onrender.com" className='flex flex-col items-center gap-1'>
-            <p>SERVICES</p>
-            <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
-        </a> */}
 
       </ul>
 
