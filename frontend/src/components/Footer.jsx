@@ -32,8 +32,12 @@ const Footer = () => {
         <div>
           <p className="prata-regular text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-            <li>+234 906 140 4264</li>
-            <li>contact@flyboycustoms.com</li>
+            <li>
+              <a href="tel:501 288 2272">501 288 2272</a>
+              </li>
+            <li>
+              <a href="mailto:aflyboyp51@gmail.com">aflyboyp51@gmail.com</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -41,7 +45,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className="prata-regular py-5 text-sm text-center">
-          Copyright 2025@ flyboycustoms.com - All Right Reserved.
+          Copyright 2025@ flyboyluxury.com - All Right Reserved.
         </p>
       </div>
     </div>

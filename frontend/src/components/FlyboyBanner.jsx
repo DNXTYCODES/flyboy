@@ -54,7 +54,7 @@ const FlyboyBanner = () => {
           </p>
           <button className="mt-8 bg-golden-brown text-black text-lg font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-yellow-500 hover:shadow-2xl transition duration-300">
             <a
-              href="https://flyboycustoms.onrender.com"
+              href="https://flyboycustoms.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800"

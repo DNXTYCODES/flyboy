@@ -24,10 +24,10 @@ const Contact = () => {
             54709 Kentucky Station <br /> Suite 350, Washington, USA
           </p>
           <p className=" text-gray-500">
-            Tel: 09061404264 <br /> Email: ayomatthew891@gmail.com
+            Tel: <a href="tel:5012982272">5012982272</a> <br /> Email: <a href="mailto:aflyboyp51@gmail.com">aflyboy51@gmail.com</a>
           </p>
           <p className="prata-regular text-xl  bg-golden-brown bg-clip-text text-transparent bg-to-b">
-            Careers at Forever
+            Careers at Flyboy
           </p>
           <p className=" text-gray-500">
             Learn more about our teams and job openings.
